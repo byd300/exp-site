@@ -1,0 +1,132 @@
+header .container {
+	padding: 0px;
+}
+
+.logo-wrapper {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.container {
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.rwd {
+	width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container img {
+	padding-down:15px;
+}
+
+.main-box a .box {
+	background: #f1f1f1;
+	margin-top: 20px;
+}
+
+.main-box .box h4 {
+	padding: 10px;
+}
+
+.main-box a .box p {
+	padding: 10px;
+}
+
+.box p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.box .btn-primary {
+	margin:10px;
+}
+
+.reg-wrapper .container .cent span {
+    font-size: 27px;
+    font-family: arial;
+    font-weight: 400;
+    padding: 20px 20px 20px 0;
+    display: inline-block;
+}
+
+.reg-wrapper {
+	background: #f1f1f1;	
+	text-align:center;
+}
+
+.reg-wrapper {
+	margin-top: 30px;
+}
+
+.btn-primary {
+	margin: 0px 20px 10px 0px;
+}
+
+h3 {
+	font-size: 27px;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+    display: inline-block;
+    color: #0053a0;
+}
+
+h4 {
+	font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    color: #0053a0;
+}
+
+.action {
+	margin-bottom: 20px;	
+}
+
+
+.action .box {
+	padding-top:20px;
+}
+
+.promotion {
+	background: #f1f1f1;	
+}
+
+.promotion .box {
+	position: relative;
+	background: white;
+	margin-top:30px;
+	padding-bottom: 40px;
+}
+
+.promotion .box .wrapper {
+	position: absolute;
+}
+
+.promotion h4 {
+	padding-left: 10px;
+	color: black;
+}
+
+
+.promotion p {
+	color: black;
+}
+
+.promotion .box a {
+	float:left;
+	margin: 10px 0 20px 10px;
+}
+
+.date-wrapper .cent {
+	font-size: 18px;
+	text-align:center;
+	background: #f1f1f1;
+	color: #0053a0;
+	padding: 20px 0 60px 0;
+}
+ 
