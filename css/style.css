@@ -1,22 +1,18 @@
 p {
 	font-size:16px;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 
 a:link{
 	text-decoration:none;
 	color: #ffffff;
 }
-
-a:visited {
-	color: #909090;
-}
-
-
-header{
-	padding-top: 50px;
-}
-
  
 .btnor {
   -webkit-border-radius: 8;
@@ -49,6 +45,7 @@ header{
 .btn-primary:hover {
    	background-color: #17216a;
    	background-image: none;
+    color: #ffffff;
 }
 
 .container {
@@ -69,12 +66,52 @@ header{
 	padding-down:15px;
 }
 
+.top-header {
+  	padding-top:5px;
+  	padding-bottom:5px;
+	background: #f1f1f1;	
+}
+
+.top-header .col-sm-2 span{
+  text-align:left;
+}
+
+.top-header .row span{
+  padding-top:10px;
+}  
+
+.top-nav {
+  	padding-top:10px;
+  	padding-bottom:10px;
+	background: #ffffff;	
+	border: none;
+}
+
+.navbar {
+	border: none;
+  box-shadow: none;
+}
+
+.container-fluid {
+  background-color: #fff;
+  box-shadow:none;
+}
+
+.glyphicon-earphone {
+	margin-right:10px;
+}
+
+.glyphicon-envelope {
+	margin-right:10px;
+}
+
 .main-box .box {
 	margin-top: 20px;
 }
 
 .main-box a .box p {
 	padding: 10px;
+  color: #909090;
 }
 
 .main-box a .box span {
@@ -112,6 +149,31 @@ header{
 	float:right;
 }
 
+footer .container a {
+  color: #999999;
+  margin-right:5px;
+  margin-left:5px;
+  font-size: 15px;
+}
+
+footer .container a:last-child {
+  margin-right:0px;
+}
+
+footer nav {
+ text-align:right;
+}
+
+footer .container {
+  color: #999999;
+  font-size: 15px;
+  padding-top:15px;
+  padding-bottom:30px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 769px) {
+  .top-header { display: none; }   /* hide it elsewhere */
+}
 
 @media screen and (min-width: 0px) and (max-width: 769px) {
   #carousel-example-generic { display: none; }   /* hide it elsewhere */
@@ -124,3 +186,6 @@ header{
   #mobile-img { display: block; }  /* show it on small screens */
 }
 
+@media screen and (min-width: 0px) and (max-width: 769px) {
+  footer nav { display: none; }   /* hide it elsewhere */
+}
